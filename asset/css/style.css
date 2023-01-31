@@ -32,7 +32,7 @@ header {
 
 .navbar .form-control {
     position: relative;
-    /* padding: 10px 52px 10px 20px; */
+    padding: 10px 52px 10px 20px;
     height: 45px;
     background: #000;
     border: transparent;
