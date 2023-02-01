@@ -16,6 +16,12 @@ li {
 a {
     text-decoration: none;
 }
+h5 {
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    color: #ff6600;
+    letter-spacing: 1px;
+}
 
 header {
     background-image: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)),url(/asset/img/banner1.jpg);
@@ -84,11 +90,4 @@ header {
 .banner .btn-outline-secondary:hover {
     background-color: #fff;
     color: #ff6600;
-}
-
-.about .col-5 h5 {
-    font-family: 'Pacifico', cursive;
-    font-size: 20px;
-    color: #ff6600;
-    letter-spacing: 1px;
 }
