@@ -27,6 +27,10 @@ header {
 
 .navbar {
     padding: 40px 0 20px 0;
+    background-image: url(/asset/img/banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .navbar .navbar-brand {
@@ -84,4 +88,7 @@ header {
 .banner .btn-outline-secondary:hover {
     background-color: #fff;
     color: #ff6600;
+    right: 40px;
+    cursor: pointer;
+    color: #fff;
 }
