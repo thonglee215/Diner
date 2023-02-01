@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-image: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)),url(/asset/img/banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+
+.navbar {
+    padding: 40px 0 20px 0;
+}
+
+.navbar .navbar-brand {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer; 
+    padding: 0;
+}
+
+.navbar .form-control {
+    position: relative;
+    padding: 10px 52px 10px 20px;
+    height: 45px;
+    background: #000;
+    border: transparent;
+    border-radius: 6px;
+}
+
+.navbar .search__icon {
+    position: absolute;
+    right: 27px;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+.banner {
+    max-width: 65%;
+    margin-top: 100px;
+}
+.banner h3 {
+    text-transform: capitalize;
+    font-size: 54px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.banner p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+}
+
+.banner .btn-outline-secondary {
+    color: #fff;
+    border-color: #fff;
+    padding: 12px 45px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    transition: all .7s;
+}
+
+.banner .btn-outline-secondary:hover {
+    background-color: #fff;
+    color: #ff6600;
+}
