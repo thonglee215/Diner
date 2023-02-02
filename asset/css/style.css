@@ -7,6 +7,7 @@
 html,
 body {
     font-family: 'Quicksand', sans-serif;
+    background-color: #000;
 }
 
 li {
@@ -37,7 +38,6 @@ h5 {
 header {
     background-image: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)),url(/asset/img/banner1.jpg);
     background-size: cover;
-    background-position: center;
     background-attachment: fixed;
     min-height: 700px;
 }
@@ -52,6 +52,7 @@ header {
     color: #fff;
     cursor: pointer; 
     padding: 0;
+    v
 }
 
 .navbar .form-control {
@@ -103,4 +104,82 @@ header {
     color: #ff6600;
 }
 
+.about {
+    background-color: #232220;
+}
 
+.about .col-7 p,
+.about .col-7 span {
+    color: #c2d0da;
+    font-size: 18px;
+}
+
+.categories {
+    background-color: #ff6600;
+}
+
+.categories-img {
+    background-image: url(/asset/img/banner3.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    position: relative;
+}
+
+.categories-img::after {
+    content: "";
+    position: absolute;
+    background: rgb(16 15 19 / 46%);
+    inset: 0;
+}
+
+.categories-content h5 {
+    color: #fff;
+}
+
+.categories-content p {
+    color: #ffdfc9;
+    font-size: 18px;
+}
+
+.best i {
+    display: block;
+    font-size: 25px;
+    background-color: #fff;
+    color: #ff6600;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    transition: all 0.3s;
+    border-radius: 6px;
+}
+
+.best .col-6:hover i {
+    color: #ffc600;
+}
+
+.best a {
+    color: #eeee;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.best p {
+    font-size: 18px;
+    color: #ffdfc9;
+}
+
+/* Media Query Header */
+
+@media screen and (max-width: 800px){ 
+    header {
+    min-height: 600px;
+    margin-top: 60px;}
+}
+
+@media screen and (max-width: 600px){ 
+    .form-inline {
+    display: none;}
+}
