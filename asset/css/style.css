@@ -86,7 +86,7 @@ header {
 
 .banner .btn-outline-secondary {
     color: #fff;
-    border-color: #fff;
+    border: 2px solid #fff;
     padding: 12px 45px;
     font-size: 16px;
     line-height: 30px;
