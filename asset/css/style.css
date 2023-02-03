@@ -136,12 +136,12 @@ header {
 /* ABOUT END */
 
 
-/* CATEGORIES START */
-.categories {
+/* AGENT START */
+.agent {
     background-color: #ff6600;
 }
 
-.categories-img {
+.agent-img {
     background-image: url(/asset/img/banner3.jpg);
     background-size: cover;
     background-position: center;
@@ -149,18 +149,18 @@ header {
     position: relative;
 }
 
-.categories-img::after {
+.agent-img::after {
     content: "";
     position: absolute;
     background: rgb(16 15 19 / 46%);
     inset: 0;
 }
 
-.categories-content h5 {
+.agent-content h5 {
     color: #fff;
 }
 
-.categories-content p {
+.agent-content p {
     color: #ffdfc9;
     font-size: 18px;
 }
@@ -192,23 +192,23 @@ header {
     font-size: 18px;
     color: #ffdfc9;
 }
-/* RESPONSIVE CATEGORIES */
+/* RESPONSIVE AGENT */
 
-/* CATEGORIES END */
+/* AGENT END */
 
 
 /* CATEGORIES START */
 
-.service {
+.categories {
     background-color: #282828;
     text-align: center;
 }
 
-.service-item {
+.categories-item {
     position: relative;
 }
 
-.service-item::after {
+.categories-item::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -217,34 +217,36 @@ header {
     height: 40%;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.53) 69%, rgba(0, 0, 0, 0.76) 100%);
 }
-.service-item img {
+.categories-item img {
     width: 100%;
     position: relative;
     display: block;
     transition: all .4s;
 }
 
-.service-item img:hover {
+.categories-item img:hover {
     opacity: 0.8;
 }
 
-.service-text {
+.categories-text {
     position: absolute;
     top: 81%;
     left: 13%;
     z-index: 1;
 }
 
-.service-text h6 {
+.categories-text h6 {
     font-size: 22px;
     color: #fff;
     font-weight: 700;
 }
 
-.service-text p {
+.categories-text p {
     font-size: 18px;
     letter-spacing: 1px;
     color: #ffc600;
     font-weight: 600;
     text-align: left;
 }
+
+/* RESPONSIVE CATEGORIES */
