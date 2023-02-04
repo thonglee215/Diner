@@ -373,7 +373,7 @@ header {
 .testimonial .carousel-item,
 .testimonial .carousel-item.active {
     min-height: 430px;
-    /* transition-duration: .3s; */
+    transition-duration: .3s;
 }
 
 .testimonial .carousel-indicators li {
