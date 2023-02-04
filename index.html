@@ -18,6 +18,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!-- OWL -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
@@ -313,72 +317,56 @@
         <div class="container">
             <h5>Testimonials</h5>
             <h3 class="title">What People Say</h3>
-            <div class="testimonial-content">
-                <div id="testimonial-carousel" class="carousel slide" data-interval="false" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#testimonial-carousel" data-slide-to="0"></li>
-                        <li data-target="#testimonial-carousel" data-slide-to="1"></li>
-                        <li data-target="#testimonial-carousel" data-slide-to="2"></li>
-                        <li data-target="#testimonial-carousel" data-slide-to="3"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item ">
-                            <!-- <img src="/asset/img/team1.jpg" alt=""> -->
-                            <div class="carousel-caption d-none d-md-block">
-                                <div class="avatar">
-                                    <img src="/asset/img/team1.jpg" alt="">
-                                </div>
-                                <i class="fa-solid fa-quote-left"></i>
-                                <h3>OMG! I cannot believe. It's Awesome </h3>
-                                <p>My new site is so much faster and easier to work with than my old site. They are here
-                                    to help the customers to get their success. Nemo sit eos, quod minus eius illo
-                                    labore. Pellen tesque libero ut justo, ultrices in ligula.</p>
-                                <h4>Johnson william</h4>
-                                <P>Customer</P>
-                            </div>
-                        </div>
-                        <div class="carousel-item active">
-                            <div class="carousel-caption d-none d-md-block">
-                                <div class="avatar">
-                                    <img src="/asset/img/team2.jpg" alt="">
-                                </div>
-                                <i class="fa-solid fa-quote-left"></i>
-                                <H3>Simply the best. Better than all the rest.</H3>
-                                <p>My new site is so much faster and easier to work with than my old site. They are here
-                                    to help the customers to get their success. Nemo sit eos, quod minus eius illo
-                                    labore. Pellen tesque libero ut justo, ultrices in ligula.</p>
-                                <H4>Alexander sakura</H4>
-                                <P>Customer</P>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="carousel-caption d-none d-md-block">
-                                <div class="avatar">
-                                    <img src="/asset/img/team3.jpg" alt="">
-                                </div>
-                                <i class="fa-solid fa-quote-left"></i>
-                                <H3>OMG! I cannot believe. It's Awesome</H3>
-                                <p>My new site is so much faster and easier to work with than my old site. They are here
-                                    to help the customers to get their success. Nemo sit eos, quod minus eius illo
-                                    labore. Pellen tesque libero ut justo, ultrices in ligula.</p>
-                                <H4>John wilson</H4>
-                                <P>Customer</P>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="carousel-caption d-none d-md-block">
-                                <div class="avatar">
-                                    <img src="/asset/img/team1.jpg" alt="">
-                                </div>
-                                <i class="fa-solid fa-quote-left"></i>
-                                <H3>OMG! I cannot believe. It's Awesome</H3>
-                                <p>My new site is so much faster and easier to work with than my old site. They are here
-                                    to help the customers to get their success. Nemo sit eos, quod minus eius illo
-                                    labore. Pellen tesque libero ut justo, ultrices in ligula.</p>
-                                <H4>Julia sakura</H4>
-                                <P>Customer</P>
-                            </div>
-                        </div>
+            <div class="testimonial-content owl-carousel owl-theme" style="font-style: italic;">
+                <div class="testimonial-item">
+                    <div class="testimonial-desc">
+                        <img src="./asset/img/team1.jpg" alt="">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <H3>OMG! I cannot believe. It's Awesome</H3>
+                        <p>My new site is so much faster and easier to work with than my old site. They are here
+                            to help the customers to get their success. Nemo sit eos, quod minus eius illo
+                            labore. Pellen tesque libero ut justo, ultrices in ligula.</p>
+                        <H4>Julia sakura</H4>
+                        <P>Customer</P>
+                    </div>
+                </div>
+
+                <div class="testimonial-item">
+                    <div class="testimonial-desc">
+                        <img src="./asset/img/team2.jpg" alt="">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <H3>Simply the best. Better than all the rest.</H3>
+                        <p>My new site is so much faster and easier to work with than my old site. They are here
+                            to help the customers to get their success. Nemo sit eos, quod minus eius illo
+                            labore. Pellen tesque libero ut justo, ultrices in ligula.</p>
+                        <H4>Alexander sakura</H4>
+                        <P>Customer</P>
+                    </div>
+                </div>
+
+                <div class="testimonial-item">
+                    <div class="testimonial-desc">
+                        <img src="./asset/img/team3.jpg" alt="">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <H3>OMG! I cannot believe. It's Awesome</H3>
+                        <p>My new site is so much faster and easier to work with than my old site. They are here
+                            to help the customers to get their success. Nemo sit eos, quod minus eius illo
+                            labore. Pellen tesque libero ut justo, ultrices in ligula.</p>
+                        <H4>Julia sakura</H4>
+                        <P>Customer</P>
+                    </div>
+                </div>
+
+                <div class="testimonial-item">
+                    <div class="testimonial-desc">
+                        <img src="./asset/img/team1.jpg" alt="">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <H3>OMG! I cannot believe. It's Awesome</H3>
+                        <p>My new site is so much faster and easier to work with than my old site. They are here
+                            to help the customers to get their success. Nemo sit eos, quod minus eius illo
+                            labore. Pellen tesque libero ut justo, ultrices in ligula.</p>
+                        <H4>Julia sakura</H4>
+                        <P>Customer</P>
                     </div>
                 </div>
             </div>
@@ -396,6 +384,16 @@
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
         crossorigin="anonymous"></script>
 
+    <!-- TESTIMONIAL OWL -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <SCript>
+        $('.testimonial-content').owlCarousel({
+            margin: 30,
+            items: 1,
+            loop: true,
+            dots: true,
+        })
+    </SCript>
 </body>
 
 </html>
