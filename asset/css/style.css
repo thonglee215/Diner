@@ -61,9 +61,16 @@ header {
     padding: 0;
 }
 
-.navbar .form-control {
+.header-right {
+    display: flex;
+}
+
+.navbar .form-inline {
     position: relative;
-    padding: 10px 69px 10px 20px;
+}
+
+.navbar .form-control {
+    padding: 10px 50px 10px 20px;
     height: 45px;
     background: #232220;
     border: transparent;
@@ -72,8 +79,18 @@ header {
 
 .navbar .search__icon {
     position: absolute;
-    right: 27px;
+    right: 20px;
+    font-size: 14px;
     cursor: pointer;
+    color: #fff;
+}
+
+.header-right button,
+.header-right .sun-btn {
+    font-size: 31px;
+    background: none;
+    border: none;
+    padding: 0 12px;
     color: #fff;
 }
 
@@ -313,3 +330,64 @@ header {
 
 /* RESPONSIVE SERVICE */
 /* SERVICE END  */
+
+/* TESTIMONIAL START */
+
+.testimonial {
+    background-color: #232220;
+    text-align: center;
+}
+
+.testimonial .avatar img {
+    width: 90px;
+    border-radius: 50%;
+}
+
+.testimonial .carousel-caption i {
+    color: #ff6600;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.testimonial .carousel-caption h3 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    color: #eee;
+    padding-bottom: 8px;
+}
+
+.testimonial .carousel-caption p {
+    color: #c2d0da;
+    font-size: 18px;
+    padding: 0 75px;
+}
+
+.testimonial .carousel-caption h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #eee;
+    padding-top: 8px;
+}
+
+.testimonial .carousel-item,
+.testimonial .carousel-item.active {
+    min-height: 430px;
+    /* transition-duration: .3s; */
+}
+
+.testimonial .carousel-indicators li {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%; 
+    background-color: #d8d8d8;
+    opacity: 1;
+    margin: 0 8px;
+}
+
+.testimonial .carousel-indicators li:hover,
+.testimonial .carousel-indicators .active {
+    background-color: #ff6600;
+}
+/* RESPONSIVE TESTIMONIAL */
+/* TESTIMONIAL END */

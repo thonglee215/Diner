@@ -32,10 +32,15 @@
         <div class="container">
             <nav class="navbar">
                 <a id="navbar-brand">Diner</a>
-                <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search here.." aria-label="Search">
-                    <span class="fa fa-search search__icon"></span>
-                </form>
+                <div class="header-right">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search here.."
+                            aria-label="Search">
+                        <i class="fa fa-search search__icon"></i>
+                    </form>
+                    <i class="far fa-moon sun-btn"></i>
+                    <button><i class="fa fa-bars"></i></button>
+                </div>
             </nav>
 
             <div class="header-content">
@@ -202,7 +207,8 @@
                             <div class="col-8">
                                 <p>01</p>
                                 <a href="#navbar-brand">
-                                <h6>Soup</h6></a>
+                                    <h6>Soup</h6>
+                                </a>
                             </div>
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
@@ -218,13 +224,14 @@
                             <div class="col-8">
                                 <p>02</p>
                                 <a href="#navbar-brand">
-                                <h6>Drinks</h6></a>
+                                    <h6>Drinks</h6>
+                                </a>
                             </div>
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
                     </div>
                 </div>
-                
+
                 <div class="col-4 mb-4">
                     <div class="service-item">
                         <div class="row">
@@ -234,7 +241,8 @@
                             <div class="col-8">
                                 <p>03</p>
                                 <a href="#navbar-brand">
-                                <h6>Pizza</h6></a>
+                                    <h6>Pizza</h6>
+                                </a>
                             </div>
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
@@ -250,7 +258,8 @@
                             <div class="col-8">
                                 <p>04</p>
                                 <a href="#navbar-brand">
-                                <h6>Breakfast</h6></a>
+                                    <h6>Breakfast</h6>
+                                </a>
                             </div>
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
@@ -266,7 +275,8 @@
                             <div class="col-8">
                                 <p>05</p>
                                 <a href="#navbar-brand">
-                                <h6>Lunch</h6></a>
+                                    <h6>Lunch</h6>
+                                </a>
                             </div>
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
@@ -282,7 +292,8 @@
                             <div class="col-8">
                                 <p>06</p>
                                 <a href="#navbar-brand">
-                                <h6>Dinner</h6></a>
+                                    <h6>Dinner</h6>
+                                </a>
                             </div>
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
@@ -296,7 +307,86 @@
     <!-- SERVICE END -->
     <section class="number"></section>
     <section class="blog"></section>
-    <section class="testimonial"></section>
+
+    <!-- TESTIMONIAL START -->
+    <section class="testimonial py-5">
+        <div class="container">
+            <h5>Testimonials</h5>
+            <h3 class="title">What People Say</h3>
+            <div class="testimonial-content">
+                <div id="testimonial-carousel" class="carousel slide" data-interval="false" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#testimonial-carousel" data-slide-to="0"></li>
+                        <li data-target="#testimonial-carousel" data-slide-to="1"></li>
+                        <li data-target="#testimonial-carousel" data-slide-to="2"></li>
+                        <li data-target="#testimonial-carousel" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item ">
+                            <!-- <img src="/asset/img/team1.jpg" alt=""> -->
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="avatar">
+                                    <img src="/asset/img/team1.jpg" alt="">
+                                </div>
+                                <i class="fa-solid fa-quote-left"></i>
+                                <h3>OMG! I cannot believe. It's Awesome </h3>
+                                <p>My new site is so much faster and easier to work with than my old site. They are here
+                                    to help the customers to get their success. Nemo sit eos, quod minus eius illo
+                                    labore. Pellen tesque libero ut justo, ultrices in ligula.</p>
+                                <h4>Johnson william</h4>
+                                <P>Customer</P>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="avatar">
+                                    <img src="/asset/img/team2.jpg" alt="">
+                                </div>
+                                <i class="fa-solid fa-quote-left"></i>
+                                <H3>Simply the best. Better than all the rest.</H3>
+                                <p>My new site is so much faster and easier to work with than my old site. They are here
+                                    to help the customers to get their success. Nemo sit eos, quod minus eius illo
+                                    labore. Pellen tesque libero ut justo, ultrices in ligula.</p>
+                                <H4>Alexander sakura</H4>
+                                <P>Customer</P>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="avatar">
+                                    <img src="/asset/img/team3.jpg" alt="">
+                                </div>
+                                <i class="fa-solid fa-quote-left"></i>
+                                <H3>OMG! I cannot believe. It's Awesome</H3>
+                                <p>My new site is so much faster and easier to work with than my old site. They are here
+                                    to help the customers to get their success. Nemo sit eos, quod minus eius illo
+                                    labore. Pellen tesque libero ut justo, ultrices in ligula.</p>
+                                <H4>John wilson</H4>
+                                <P>Customer</P>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="avatar">
+                                    <img src="/asset/img/team1.jpg" alt="">
+                                </div>
+                                <i class="fa-solid fa-quote-left"></i>
+                                <H3>OMG! I cannot believe. It's Awesome</H3>
+                                <p>My new site is so much faster and easier to work with than my old site. They are here
+                                    to help the customers to get their success. Nemo sit eos, quod minus eius illo
+                                    labore. Pellen tesque libero ut justo, ultrices in ligula.</p>
+                                <H4>Julia sakura</H4>
+                                <P>Customer</P>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- TESTIMONIAL END -->
+
     <footer></footer>
     <!-- JQUERY dùng chung cho cac thư viện cần sử dụng code Jquery -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
@@ -305,6 +395,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
