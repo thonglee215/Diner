@@ -26,6 +26,12 @@ a:hover {
     font-weight: 600;
 }
 
+/* DARK THEME TITLE START */
+.dark .title {
+    color: #232121;
+}
+/* DARK THEME TITLE END */
+
 h3,
 h4 {
     color: #eee;
@@ -89,15 +95,19 @@ header {
     color: #fff;
 }
 
-.header-right button,
-.header-right .sun-btn {
+.header-right button {
     font-size: 31px;
     background: none;
     border: none;
     padding: 0 12px;
     color: #fff;
+    cursor: pointer;
 }
 
+.header-right .theme-btn {
+    cursor: default;
+    font-size: 22px;
+}
 
 .header-content {
     max-width: 600px;
@@ -118,7 +128,7 @@ header {
     color: #fff;
 }
 
-.header-content .btn-outline-secondary {
+.header-content .header-btn {
     color: #fff;
     border: 2px solid #fff;
     padding: 12px 45px;
@@ -126,12 +136,42 @@ header {
     line-height: 30px;
     font-weight: 700;
     transition: all .65s;
+    background-color: transparent;
+    border-radius: 6px;
 }
 
-.header-content .btn-outline-secondary:hover {
+.header-content .header-btn:hover {
     background-color: #fff;
     color: #ff6600;
 }
+
+#switchButton .fa-moon {
+    display: none;
+}
+
+/* HEADER DARK THEME START */
+
+.dark #switchButton .fa-moon {
+    display: block;
+}
+
+.dark #switchButton .fa-sun {
+    display: none;
+}
+
+.dark .navbar .form-control {
+    background: #fff;
+}
+
+.dark .navbar .search__icon {
+    color: rgba(22, 28, 45, 0.7);
+}
+
+.dark .header-content .title {
+    color: #fff;
+}
+
+/* HEADER DARK THEME END */
 
 /* RESPONSIVE HEADER */
 
@@ -166,13 +206,13 @@ header {
         min-height: 490px;
     }
 
-    .header-content .btn-outline-secondary {
+    .header-content .header-btn {
         padding: 10px 21px;
     }
 }
 
 @media screen and (min-width: 0px) and (max-width: 576px) {
-    .header-content .btn-outline-secondary {
+    .header-content .header-btn {
         margin-top: -25px;
     }
 }
@@ -218,6 +258,18 @@ header {
     color: #c2d0da;
     font-size: 18px;
 }
+
+/* HEADER DARK THEME START */
+.dark .about {
+    background-color: #fff;
+}
+
+.dark .about-text p, 
+.dark .about-text span {
+    color: rgba(22, 28, 45, 0.7);
+}
+
+/* HEADER DARK THEME END */
 
 /* RESPONSIVE ABOUT */
 @media screen and (min-width: 0px) {
@@ -319,6 +371,12 @@ header {
     color: #ffdfc9;
 }
 
+/* AGENT DARK THEME START */
+    .dark .best a {
+        color: #232121;
+    }
+/* AGENT DARK THEME END */
+
 /* RESPONSIVE AGENT */
 
 @media screen and (min-width: 0px) {
@@ -397,6 +455,13 @@ header {
     text-align: left;
 }
 
+/* CATEGORIES DARK THEME START */
+    .dark .categories {
+        background-color: #fff;
+    }
+/* CATEGORIES DARK THEME END */
+
+
 /* RESPONSIVE CATEGORIES */
 
 @media screen and (min-width: 0px) and (max-width: 800px) {
@@ -421,6 +486,7 @@ header {
     border-radius: 8px;
     box-shadow: 0 25px 100px 0 rgb(0 0 0 / 3%);
     border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid #eee;
     transition: all 0.5s ease 0s;
     position: relative;
 }
@@ -467,6 +533,25 @@ header {
 .service-desc {
     margin-top: 16px;
 }
+
+/* SERVICE DARK THEME START */
+    .dark .service {
+        background-color: #fff;
+    }
+
+    .dark .service-text h6 {
+        color: #232121;
+    }
+
+    .dark .service-item p {
+        color: rgba(22, 28, 45, 0.7);
+    }
+
+    .dark .service i {
+        background-color: rgba(130, 115, 252, .05);
+    }
+/* SERVICE DARK THEME END */
+
 
 /* RESPONSIVE SERVICE */
 @media screen and (min-width: 0px) and (max-width: 600px) {
@@ -547,6 +632,22 @@ header {
 .testimonial button.owl-dot.active {
     background-color: #ff6600;
 }
+
+/* TESTIMONIAL DARK THEME START */
+
+.dark .testimonial {
+    background-color: #fff;
+}
+.dark .testimonial-desc h3,
+.dark .testimonial-desc h4 {
+    color: #232121;
+}
+
+.dark .testimonial-desc p {
+    color: rgba(22, 28, 45, 0.7);
+}
+/* TESTIMONIAL DARK THEME END */
+
 
 /* RESPONSIVE TESTIMONIAL */
 @media screen and (min-width: 0px) {
