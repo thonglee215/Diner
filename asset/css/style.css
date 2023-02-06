@@ -486,7 +486,6 @@ header {
     border-radius: 8px;
     box-shadow: 0 25px 100px 0 rgb(0 0 0 / 3%);
     border: 1px solid rgba(255, 255, 255, 0.1);
-    border: 1px solid #eee;
     transition: all 0.5s ease 0s;
     position: relative;
 }
@@ -541,6 +540,10 @@ header {
 
     .dark .service-text h6 {
         color: #232121;
+    }
+
+    .dark .service-item {
+        border: 1px solid #eee;
     }
 
     .dark .service-item p {
