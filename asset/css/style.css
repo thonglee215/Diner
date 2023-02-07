@@ -54,7 +54,7 @@ h5 {
 /* HEADER START */
 
 header {
-    background-image: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)), url(/asset/img/banner1.jpg);
+    background-image: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)), url(../img/banner1.jpg);
     background-size: cover;
     background-attachment: fixed;
     min-height: 700px;
@@ -321,7 +321,7 @@ header {
 }
 
 .agent-img {
-    background-image: url(/asset/img/banner3.jpg);
+    background-image: url(../img/banner3.jpg);
     background-size: cover;
     background-position: center;
     height: 100%;
