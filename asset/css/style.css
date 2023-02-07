@@ -541,6 +541,11 @@ header {
     background-color: #fff;
 }
 
+.dark .service-item:hover i {
+    background-color: #ff6600;
+    color: #fff;
+}
+
 .dark .service-text h6 {
     color: #232121;
 }
