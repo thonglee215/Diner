@@ -30,6 +30,7 @@ a:hover {
 .dark .title {
     color: #232121;
 }
+
 /* DARK THEME TITLE END */
 
 h3,
@@ -264,7 +265,7 @@ header {
     background-color: #fff;
 }
 
-.dark .about-text p, 
+.dark .about-text p,
 .dark .about-text span {
     color: rgba(22, 28, 45, 0.7);
 }
@@ -372,9 +373,10 @@ header {
 }
 
 /* AGENT DARK THEME START */
-    .dark .best a {
-        color: #232121;
-    }
+.dark .best a {
+    color: #232121;
+}
+
 /* AGENT DARK THEME END */
 
 /* RESPONSIVE AGENT */
@@ -456,9 +458,10 @@ header {
 }
 
 /* CATEGORIES DARK THEME START */
-    .dark .categories {
-        background-color: #fff;
-    }
+.dark .categories {
+    background-color: #fff;
+}
+
 /* CATEGORIES DARK THEME END */
 
 
@@ -534,25 +537,26 @@ header {
 }
 
 /* SERVICE DARK THEME START */
-    .dark .service {
-        background-color: #fff;
-    }
+.dark .service {
+    background-color: #fff;
+}
 
-    .dark .service-text h6 {
-        color: #232121;
-    }
+.dark .service-text h6 {
+    color: #232121;
+}
 
-    .dark .service-item {
-        border: 1px solid #eee;
-    }
+.dark .service-item {
+    border: 1px solid #eee;
+}
 
-    .dark .service-item p {
-        color: rgba(22, 28, 45, 0.7);
-    }
+.dark .service-item p {
+    color: rgba(22, 28, 45, 0.7);
+}
 
-    .dark .service i {
-        background-color: rgba(130, 115, 252, .05);
-    }
+.dark .service i {
+    background-color: rgba(130, 115, 252, .05);
+}
+
 /* SERVICE DARK THEME END */
 
 
@@ -641,6 +645,7 @@ header {
 .dark .testimonial {
     background-color: #fff;
 }
+
 .dark .testimonial-desc h3,
 .dark .testimonial-desc h4 {
     color: #232121;
@@ -649,6 +654,7 @@ header {
 .dark .testimonial-desc p {
     color: rgba(22, 28, 45, 0.7);
 }
+
 /* TESTIMONIAL DARK THEME END */
 
 
@@ -679,3 +685,29 @@ header {
 }
 
 /* TESTIMONIAL END */
+
+/* BACK TO TOP */
+.backtotop {
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    border-radius: 50%;
+    background-color: #ff6600;
+    text-align: center;
+    display: block;
+    position: fixed;
+    right: 25px;
+    bottom: 55px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.backtotop i {
+    color: #fff;
+    font-size: 13px;
+}
+
+.cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
+}
