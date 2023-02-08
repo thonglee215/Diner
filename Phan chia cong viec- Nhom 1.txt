@@ -1,0 +1,12 @@
+Tasks Name					Dev Name
+Header + Dark theme + Responsive		Thông
+About + Dark theme + Responsive			Thông
+Agent + Dark theme + Responsive			Thông
+Categories + Dark theme + Responsive		Thông
+Service	+ Dark theme + Responsive		Thông
+Number + Dark theme + Responsive		Thương
+Video + Dark theme + Responsive			Thông
+Blog + Dark theme + Responsive			Thương
+Testimonial + Dark theme + Responsive		Thông
+Footer + Dark theme + Responsive		Thương
+BacktoTop button + Dark theme + Responsive	Thương
