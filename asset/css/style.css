@@ -581,18 +581,21 @@ header {
 
 /* SERVICE END  */
 
-/* DELICIOUSNESS */
+/* DELICIOUSNESS START */
 .deliciousness {
     background-image: url(../img/banner2.jpg);
     background-position: right center;
     height: 500px;
+    text-align: center;
 }
 
 .deliciousness h3 {
-    font-size: 36px;
-    font-weight: 700;
-    width: 60%;
-    margin: 0 auto;
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 600;
+    color: #fff;
+    max-width: 800px;
+    margin: auto;
 }
 
 .deliciousness::after {
@@ -610,15 +613,14 @@ header {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     z-index: 999;
 }
 
-.deliciousness .deliciousness-link .deliciousness-btn1 {
+.deliciousness .deliciousness-btn {
     color: #fff;
     border: 2px solid #fff;
     padding: 12px 43px;
-    margin: 20px 20px;
     font-size: 16px;
     line-height: 30px;
     font-weight: 700;
@@ -626,41 +628,87 @@ header {
     background-color: transparent;
     border-radius: 6px;
 }
-.deliciousness .deliciousness-link .deliciousness-btn1:hover {
+
+.deliciousness .deliciousness-btn:hover {
     background-color: #fff;
     color: #ff6600;
 }
 
-.deliciousness .deliciousness-link .deliciousness-btn2 {
-    background-color: #ff6600;
-    color: white;
+button.deliciousness-btn.btn2.btn-outline-secondary {
     border: 2px solid #ff6600;
-    padding: 12px 43px;
-    margin: 20px 20px;
-    font-size: 16px;
-    line-height: 30px;
-    font-weight: 700;
-    transition: all .65s;
-    /* background-color: transparent; */
-    border-radius: 6px;
-}.deliciousness .deliciousness-link .deliciousness-btn2:hover {
+    background-color: #ff6600;
+    padding: 12px 45px;
+}
+
+.deliciousness .btn2:hover {
     color: #fff;
     background-color: #ff6600;
-    border: 2px solid #ff6600;
     opacity: 0.8;
 }
 
+/* RESPONSIVE DELICIOUSNESS */
+@media screen and (min-width: 0px) {
+    .deliciousness h3 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+}
+
+@media screen and (min-width: 415px) {
+    .deliciousness h3 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (min-width: 736px) {
+    .deliciousness h3 {
+        font-size: 40px;
+        line-height: 50px;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .deliciousness h3 {
+        font-size: 45px;
+        line-height: 55px;
+        max-width: 645px;
+    }
+}
+
+
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+
+    .deliciousness .deliciousness-btn
+    {
+        padding: 10px 21px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+    button.deliciousness-btn.btn2.btn-outline-secondary {
+        padding: 10px 21px;
+    }
+
+}
+
+
+
+
+
+/* DELICIOUSNESS END */
 
 
 /* NUMBER START */
 .number {
-    margin-top: 400px;
-    /* padding: 200px 0 60px; */
-    /* background-color: #232220; */
+    margin-top: -70px;
+    z-index: 99;
 }
 
 .number-item {
-    padding: 40px 30px;
+    padding: 40px 20px;
     background-color: #232121;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
     border-radius: 15px;
@@ -670,7 +718,6 @@ header {
 
 .number-item:hover {
     transform: translateY(-10px);
-    box-shadow: 0 0 10px rgba(249, 249, 249, 0.24);
 }
 
 .number-container {
@@ -713,14 +760,23 @@ header {
     top: -470px;
 }
 
+/* RESPONSIVE NUMBER */
+@media screen and (min-width: 0px) and (max-width: 640px) { 
+    .number .number-item p {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px) { 
+    .number .number-item span {
+        font-size: 15px;
+    }
+}
+
+
 /* DARK THEME NUMBER START */
 .dark .number-item {
-    padding: 40px 30px;
     background-color: white;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.12);
-    border-radius: 15px;
-    transform: translateY(0px);
-    transition: all 0.4s;
 }
 
 .dark .number-item:hover {
@@ -737,9 +793,11 @@ header {
 .dark .number .number-item p {
     color: #000;
 }
+
 .dark .video {
     background-color: white;
 }
+
 /* DARK NUMBER END */
 
 .video {
@@ -858,7 +916,7 @@ div#small-dialog iframe {
     color: white;
     font-size: 24px;
     text-align: left;
-    
+
 }
 
 .blog>img {
