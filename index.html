@@ -26,6 +26,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- MAGNIFIC POPUP -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
     <!-- STYLE -->
     <link rel="stylesheet" href="./asset/css/style.css">
 </head>
@@ -368,12 +371,14 @@
                         <span>Happy Customers</span>
                     </div>
                 </div>
-
+            </div>
+            <div class="video-popup">
                 <div class="video">
-                    <a href="#small-dialog" class="open-popup-link popup-with-zoom-anim">
+                    <!-- <div class="video-icon"> -->
+                    <a href="#small-dialog" class="open-popup-link popup-with-zoom-anim text-center">
                         <i class="fa-solid fa-play"></i>
                     </a>
-
+                    <!-- </div> -->
                     <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
                         <iframe src="https://player.vimeo.com/video/305185528" frameborder="0"
                             allow="autoplay; fullscreen" allowfullscreen=""></iframe>
@@ -614,6 +619,29 @@
             dots: true,
         })
     </script>
+
+    <!-- VIDEO POPUP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <Script>
+        $(document).ready(function () {
+            $(".popup-with-zoom-anim").magnificPopup({
+                type: "inline",
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: "auto",
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: "my-mfp-zoom-in"
+            });
+        });
+
+    </Script>
 
     <!-- BACK TO TOP  -->
     <script src="./asset/js/util.js"></script>
