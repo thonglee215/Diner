@@ -1231,9 +1231,18 @@ footer .footer-social li {
 
 footer .footer-social li a {
     color: #ff6600;
-    background-color: white;
+    background-color: #232320;
     padding: 8px 10px;
     border-radius: 5px;
+    transition: all 0.3s;
+}
+.dark footer .footer-social li a {
+    background-color: #fff;
+}
+
+footer .footer-social li a:hover {
+    color: #fff;
+    background-color: #ff6600;
 }
 
 footer input {
@@ -1261,6 +1270,15 @@ footer .footer-nav li {
 
 footer .footer-nav li a:hover {
     color: #ff6600;
+}
+
+.text-white span a {
+    font-size: 17px;
+    color: #ff6600;
+}
+
+.text-white span a:hover {
+    color: #fff;
 }
 
 /* FOOTER END */
