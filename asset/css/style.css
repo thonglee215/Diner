@@ -999,6 +999,10 @@ a.open-popup-link.popup-with-zoom-anim {
     font-size: 13px;
 }
 
+.blog .card-left {
+    cursor: pointer;
+}
+
 .blog .card-left img {
     width: 40px;
     border-radius: 50%;
@@ -1022,6 +1026,12 @@ a.open-popup-link.popup-with-zoom-anim {
 
 .blog .card-right i {
     color: white;
+}
+
+.blog .card-right:hover span,
+.blog .card-right:hover i {
+    cursor: pointer;
+    color: #ff6600;
 }
 
 /* BLOG THEME DARK */
