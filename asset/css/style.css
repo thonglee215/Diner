@@ -1264,6 +1264,15 @@ footer .footer-nav li a:hover {
 }
 
 /* FOOTER END */
+/* Responsive Footer */
+@media screen and (max-width: 576px) {
+    .footer-center {
+        width: 50%;
+    }
+    .footer-social {
+        justify-content: center;
+    }
+}
 
 /* Keyframe popup */
 
