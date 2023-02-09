@@ -1290,6 +1290,10 @@ footer .footer-nav li a:hover {
     .footer-social {
         justify-content: center;
     }
+    .footer-bottom {
+        border-top: 3px solid rgb(255 255 255 / 10%);
+        padding: 16px 0;
+    }
 }
 
 /* Keyframe popup */
