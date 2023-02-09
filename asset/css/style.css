@@ -1024,7 +1024,6 @@ a.open-popup-link.popup-with-zoom-anim {
     color: white;
 }
 
-
 /* BLOG THEME DARK */
 .dark .blog {
     background-color: #f7f7f7;
@@ -1057,6 +1056,22 @@ a.open-popup-link.popup-with-zoom-anim {
 .dark .blog .card-right i {
     color: #232121;
 }
+/* RESPONSIVE BLOG */
+@media screen and (min-width: 0px) and (max-width: 1080px) {
+
+    .blog .h3{
+        font-size: 32px;
+        line-height: 40px;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 1080px) {
+
+    .blog .h3{
+        font-size: 32px;
+        line-height: 40px;
+    }
+}
+
 
 /* BLOG END */
 
